@@ -5,7 +5,7 @@ badges = []
 
 def batch_badge_creator(speaker_list)
   speaker_list.each{|name| badges = badge_maker(name)}
-  binding.pry
+  # binding.pry
   return badges
 end
 
