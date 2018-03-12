@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speaker_list)
-  speaker_list.each{|name| temp_array = badge_maker(name)}
+  speaker_list.each{|name| temp_array << badge_maker(name)}
   return temp_array
 end
 
