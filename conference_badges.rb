@@ -11,9 +11,9 @@ def batch_badge_creator(speaker_list)
 end
 
 def assign_rooms(speaker_list)
-  rooms_assignments = []
-  speaker_list.each_with_index{|name, index| room_assignments << "Hello, #{name}! You'll be assigned to room #{index + 1}!"}
-  return room_assignments
+  temp_array = []
+  speaker_list.each_with_index{|name, index| temp_array << "Hello, #{name}! You'll be assigned to room #{index + 1}!"}
+  return temp_array
 end
 
 def printer(speaker_list)
