@@ -4,10 +4,10 @@ require "pry"
 # room_assignments = []
 
 def batch_badge_creator(speaker_list)
-  # speaker_list.each{|name| badges = badge_maker(name)}
-  speaker_list.each{|name| return badge_maker(name)}
+  speaker_list.each{|name| badges = badge_maker(name)}
+  # speaker_list.each{|name| return badge_maker(name)}
   # binding.pry
-  # return badges
+  return badges
 end
 
 def badge_maker(name)
