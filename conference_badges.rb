@@ -4,7 +4,7 @@ badges = []
 room_assignments = []
 
 def batch_badge_creator(speaker_list)
-  badges = []
+  # badges = []
   speaker_list.each{|name, index| badges = badge_maker(name)}
   return badges
 end
