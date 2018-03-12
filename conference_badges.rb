@@ -1,6 +1,6 @@
 require "pry"
 
-badges = []
+# badges = []
 # room_assignments = []
 
 def batch_badge_creator(speaker_list)
