@@ -1,12 +1,10 @@
 require "pry"
-# def conference_badges(speaker_list)
-  badges = []
-  room_assignments = []
-  # speaker_list.each_with_index{|name, index| badge_maker(name)}
-# end
+
+badges = []
+room_assignments = []
 
 def batch_badge_creator(speaker_list)
-  speaker_list.each_with_index{|name, index| badges << badge_maker(name)}
+  speaker_list.each{|name, index| badges << badge_maker(name)}
   return badges
 end
 
