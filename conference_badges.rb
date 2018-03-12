@@ -15,7 +15,7 @@ end
 def assign_rooms(speaker_list)
   # rooms = []
   speaker_list.each_with_index{|name, index| room_assignments[index] << "Hello, #{name}! You'll be assigned to room #{index + 1}!"}
-# binding.pry
+binding.pry
   return room_assignments
 end
 
