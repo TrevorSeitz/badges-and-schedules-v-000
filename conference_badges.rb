@@ -1,4 +1,4 @@
-
+require "pry"
 # def conference_badges(speaker_list)
   badges = []
   room_assignments = []
