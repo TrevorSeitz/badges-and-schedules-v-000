@@ -24,6 +24,9 @@ def printer(speaker_list)
   # badges.each {|badge| puts badge}
   # binding.pry
 
-  assign_rooms(speaker_list)
-  room_assignments.each {|room| puts room}
+  # assign_rooms(speaker_list)
+  # room_assignments.each {|room| puts room}
+  assign_rooms(speaker_list).each do |room|
+    puts room
+  end
 end
