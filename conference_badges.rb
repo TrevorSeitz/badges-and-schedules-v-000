@@ -5,9 +5,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(speaker_list)
-  speaker_list.each{|name| badges = badge_maker(name)}
-  # speaker_list.each{|name| return badge_maker(name)}
-  return badges
+  speaker_list.each{|name| temp_array = badge_maker(name)}
+  return temp_array
 end
 
 def assign_rooms(speaker_list)
